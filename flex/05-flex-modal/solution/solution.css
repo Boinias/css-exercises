@@ -7,7 +7,7 @@ html, body {
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
-  background: #aaa;
+  background: rgb(133, 7, 7);
   color: #333;
   /* I'll give you this one for free */
   display: flex;

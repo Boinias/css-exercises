@@ -10,8 +10,23 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
+.ingredients {
+  display: flex;
+}
+
+.ingredients div{
+  display: flex;
+  justify-content: center;
+}
+
+.barberry {
+
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
