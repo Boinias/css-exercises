@@ -10,14 +10,40 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  flex: auto;
+  padding: 0px 15px;
+}
+
+.header .right-links {
+  display: flex;
+  padding: 0px;
+  margin-left: 15px;
 }
 
 .header .left-links {
   display: flex;
-  gap: 30px;
-  list-style: none;
+  padding: 0px;
 }
 
+ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
 img {
   width: 600px;
 }
