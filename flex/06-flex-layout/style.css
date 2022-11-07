@@ -5,12 +5,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  flex: auto;
+  flex: 1;
   padding: 0px 15px;
 }
 
@@ -25,11 +27,20 @@ body {
   padding: 0px;
 }
 
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
 .footer {
   display: flex;
   justify-content: space-between;
-  flex: auto;
+  align-items: flex-end;
   padding: 0px 15px;
+  flex: 1;
 }
 
 .footer .right-links {
